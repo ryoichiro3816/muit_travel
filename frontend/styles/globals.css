@@ -1,0 +1,149 @@
+html,
+.header {
+  padding: 10;
+  margin: 10;
+  height: 40px;
+  width: 100%;
+  color: antiquewhite;
+  background-color: darkolivegreen;
+  flex-direction: row;
+}
+.home-link {
+  margin-right: 75%;
+  margin-left: 0%;
+  padding-left: 0%;
+  
+}
+.register-link {
+  background-color: antiquewhite;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #3f312b;
+  font-weight: bolder;
+  margin: 1%;
+}
+.top {
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.button {
+  background-color: darkolivegreen;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  font: bold;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* text-decoration: none;
+  display: inline-block; */
+  font-size: 16px;
+  margin: 10px 10px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.register {
+  text-align: center;
+  display: flex;
+  margin: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #3f312b;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.9);
+  padding-left: 15px;
+}
+.mypage-content {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  margin: 50px;
+  width: max-content;
+  padding: 30px;
+  border: solid medium #3f312b;
+  border-radius: 24px;
+}
+.form{
+  align-items: center;
+  align-content: center;
+  width: max-content;
+  margin: 50px;
+  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border: solid#3f312b;
+  border-radius: 50px;
+}
+.center-button {
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  left: 46%;
+}
+
+label {
+  display: block;
+ }
+
+.spot {
+  display: flex;
+  flex-direction: row;
+}
+.spot_image {
+  margin: 20px;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #3f312b;
+  background-color: antiquewhite;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px;
+}
+
+li {
+  text-align: left;
+}
+label {
+  width: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #3f312b;
+  }
+}
